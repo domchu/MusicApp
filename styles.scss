@@ -1,11 +1,12 @@
 $bgcolor: black;
+$bgcolor_2: #34f39f;
 $textcolor: #f9f9f9;
+$textcolor_2: #34f39f;
 $fontsize_sm: 18px;
 $fontsize_md: 20px;
 $fontsize_lg: 25px;
 $primary_1: #000;
-$primary_2: #34f39f;
-$primary_3: #c940ff;
+$primary_2: #c940ff;
 $myfontfamily: sans-serif, Poppins;
 * {
   margin: 0;
@@ -24,7 +25,7 @@ body {
   border: 1px solid;
   width: 200px;
   .left-bar {
-    width: 100px;
+    width: 150px;
     margin-left: 20px;
     h1 {
       margin-bottom: 20px;
@@ -32,10 +33,14 @@ body {
   }
   .menu-head {
     text-align: center;
+    h2 {
+      font-size: $fontsize_lg;
+    }
   }
 }
 h1 {
   margin-top: 20px;
+  color: $textcolor_2;
 }
 
 .navlink {
@@ -48,5 +53,11 @@ h1 {
   }
   .list li a {
     color: $textcolor;
+  }
+  .list li a:hover {
+    background-color: $bgcolor_2;
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: $primary_1;
   }
 }

@@ -20,7 +20,7 @@ body {
 }
 
 .page-container .left-bar {
-  width: 100px;
+  width: 150px;
   margin-left: 20px;
 }
 
@@ -32,8 +32,13 @@ body {
   text-align: center;
 }
 
+.page-container .menu-head h2 {
+  font-size: 25px;
+}
+
 h1 {
   margin-top: 20px;
+  color: #34f39f;
 }
 
 .navlink .list {
@@ -49,5 +54,12 @@ h1 {
 
 .navlink .list li a {
   color: #f9f9f9;
+}
+
+.navlink .list li a:hover {
+  background-color: #34f39f;
+  padding: 5px 15px;
+  border-radius: 3px;
+  color: #000;
 }
 /*# sourceMappingURL=styles.css.map */
