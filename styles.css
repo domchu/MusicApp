@@ -7,4 +7,9 @@
           box-sizing: border-box;
   font-family: poppins, sans-serif;
 }
+
+body {
+  background-color: #000;
+  color: #f9f9f9;
+}
 /*# sourceMappingURL=styles.css.map */

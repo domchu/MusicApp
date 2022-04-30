@@ -1,8 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    font-family: poppins, sans-serif;
+$bgcolor: black;
+$textcolor: #f9f9f9;
+$fontsize_sm: 18px;
+$fontsize_md: 20px;
+$fontsize_lg: 25px;
+$primary_1: #000;
+$primary_2: #34f39f;
+$primary_3: #c940ff;
+$myfontfamily: sans-serif, Poppins;
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+body {
+  background-color: $primary_1;
+  color: $textcolor;
 }
