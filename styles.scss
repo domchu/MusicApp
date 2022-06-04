@@ -22,42 +22,75 @@ body {
 }
 .page-container {
   margin: 20px 0;
-  border: 1px solid;
   width: 200px;
+  display: flex;
   .left-bar {
-    width: 150px;
-    margin-left: 20px;
+    background-color: rgba(111, 104, 96, 0.151);
+    width: 240px;
+    min-width: 240px;
+    padding: 40px;
+    margin-left: 200px;
     h1 {
       margin-bottom: 20px;
     }
   }
   .menu-head {
-    text-align: center;
+    text-align: left;
     h2 {
-      font-size: $fontsize_lg;
+      font-size: 12px;
+      margin-top: 30px;
+      color: grey;
     }
   }
 }
 h1 {
   margin-top: 20px;
-  color: $textcolor_2;
+  color: $textcolor;
 }
 
 .navlink {
   .list {
     display: flex;
-    margin: 10px 0;
+    margin: 18px 0;
   }
   .fas {
     margin: 0 10px;
   }
   .list li a {
     color: $textcolor;
+    margin-top: 12px;
   }
   .list li a:hover {
     background-color: $bgcolor_2;
     padding: 5px 15px;
     border-radius: 3px;
     color: $primary_1;
+  }
+}
+.right-side {
+  .first-header {
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .first-link a {
+    margin: 9px;
+  }
+  .dif {
+    color: grey;
+  }
+  .search-input {
+    padding: 7px;
+    background-color: grey;
+    color: #fff;
+    border: 1px solid grey;
+    border-radius: 3px;
   }
 }
