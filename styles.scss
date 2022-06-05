@@ -226,7 +226,48 @@ h1 {
   }
   .top-artist2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
+  h2 {
+    // border: 1px solid;
+    background-color: #4b91d7;
+    color: #fff;
+    padding: 1rem;
+    margin: 0.5rem 0.4rem;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .genre-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1rem;
+  }
+  .bg1 {
+    background-color: #e7d5b8;
+  }
+  .bg2 {
+    background-color: #6f6459;
+  }
+  .bg3 {
+    background-color: #2dd706;
+  }
+  .bg4 {
+    background-color: #e13a07;
+  }
+  .bg5 {
+    background-color: #d210c2;
+  }
+}
+.topchart {
+  // display: flex;
+  position: absolute;
+  // display: flex;
+  z-index: 300;
+  margin-top: 12rem;
 }

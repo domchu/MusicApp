@@ -278,11 +278,63 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.top-active-genre h2 {
+  background-color: #4b91d7;
+  color: #fff;
+  padding: 1rem;
+  margin: 0.5rem 0.4rem;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-active-genre .genre-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  margin-top: 1rem;
+}
+
+.top-active-genre .bg1 {
+  background-color: #e7d5b8;
+}
+
+.top-active-genre .bg2 {
+  background-color: #6f6459;
+}
+
+.top-active-genre .bg3 {
+  background-color: #2dd706;
+}
+
+.top-active-genre .bg4 {
+  background-color: #e13a07;
+}
+
+.top-active-genre .bg5 {
+  background-color: #d210c2;
+}
+
+.topchart {
+  position: absolute;
+  z-index: 300;
+  margin-top: 12rem;
 }
 /*# sourceMappingURL=styles.css.map */
