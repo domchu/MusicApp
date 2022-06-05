@@ -85,6 +85,10 @@ h1 {
       padding: 20px;
       margin-top: 20px;
     }
+    .main-slider-content {
+      position: fixed;
+      z-index: 100;
+    }
     .first-link a {
       margin: 9px;
     }
@@ -158,5 +162,71 @@ h1 {
     margin-right: 2.5rem;
     font-size: 2rem;
     color: #fff;
+  }
+}
+.top-active-artist {
+  position: absolute;
+  z-index: 200;
+  margin-top: 32rem;
+
+  .main-top-artist {
+    width: 500px;
+  }
+  .general-top {
+    border-radius: 4px;
+    min-height: 20vh;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    background-color: #28292a;
+    min-width: 35vw;
+    position: absolute;
+    z-index: 400;
+  }
+  .top-artist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.artist-image-text {
+  display: flex;
+  .img-text {
+    margin-top: 2rem;
+  }
+  h3 {
+    font-size: 10px;
+    margin-left: 1.2rem;
+  }
+  p {
+    font-size: 7px;
+    margin-left: 1.2rem;
+  }
+  .artist-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 1rem;
+  }
+}
+// general top2
+.top-active-genre {
+  position: absolute;
+  z-index: 300;
+  margin-top: 12rem;
+
+  .general-top2 {
+    border-radius: 4px;
+    min-height: 25vh;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    background-color: #28292a;
+    min-width: 15vw;
+    position: absolute;
+    z-index: 400;
+  }
+  .top-artist2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
