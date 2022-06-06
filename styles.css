@@ -91,11 +91,6 @@ h1 {
   margin-top: 20px;
 }
 
-.slider-container .right-side .main-slider-content {
-  position: fixed;
-  z-index: 100;
-}
-
 .slider-container .right-side .first-link a {
   margin: 9px;
 }
@@ -261,6 +256,9 @@ h1 {
   position: absolute;
   z-index: 300;
   margin-top: 12rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .top-active-genre .general-top2 {
@@ -271,7 +269,7 @@ h1 {
   background-color: #28292a;
   min-width: 15vw;
   position: absolute;
-  z-index: 400;
+  z-index: 200;
 }
 
 .top-active-genre .top-artist2 {
@@ -302,6 +300,12 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
+}
+
+.top-active-genre h2:hover {
+  background-color: lightgrey;
+  color: #000;
 }
 
 .top-active-genre .genre-container {
@@ -332,9 +336,119 @@ h1 {
   background-color: #d210c2;
 }
 
+.top-active-genre .bg1:hover {
+  background-color: lightgrey;
+  color: #000;
+}
+
+.top-active-genre .bg2:hover {
+  background-color: lightgrey;
+  color: #000;
+}
+
+.top-active-genre .bg3:hover {
+  background-color: lightgrey;
+  color: #000;
+}
+
+.top-active-genre .bg4:hover {
+  background-color: lightgrey;
+  color: #000;
+}
+
+.top-active-genre .bg5:hover {
+  background-color: lightgrey;
+  color: #000;
+}
+
 .topchart {
   position: absolute;
-  z-index: 300;
-  margin-top: 12rem;
+  z-index: 200;
+  margin-left: 18.5rem;
+  background-color: #28292a;
+  width: 20rem;
+  height: 34vh;
+  border-radius: 5px;
+}
+
+.topchart .chat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.topchart .text-chat {
+  padding: 1rem;
+}
+
+.topchart .first-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.topchart .first-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topchart h4 {
+  font-size: 12px;
+  margin-right: 1rem;
+}
+
+.topchart h5 {
+  margin-left: 1rem;
+}
+
+.topchart p {
+  margin-left: 1rem;
+  font-size: 10px;
+}
+
+.topchart .play-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topchart .general-top-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.topchart .play {
+  margin-left: 1rem;
+  font-size: 0.7rem;
+  border: 1px solid;
+  padding: 0.4rem;
+  border-radius: 2px;
+  color: #4b91d7;
+  cursor: pointer;
+}
+
+.topchart .pause {
+  margin-left: 1rem;
+  font-size: 0.7rem;
+  cursor: pointer;
 }
 /*# sourceMappingURL=styles.css.map */

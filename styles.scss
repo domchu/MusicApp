@@ -85,10 +85,10 @@ h1 {
       padding: 20px;
       margin-top: 20px;
     }
-    .main-slider-content {
-      position: fixed;
-      z-index: 100;
-    }
+    // .main-slider-content {
+    // position: fixed;
+    // z-index: 100;
+    // }
     .first-link a {
       margin: 9px;
     }
@@ -213,6 +213,7 @@ h1 {
   position: absolute;
   z-index: 300;
   margin-top: 12rem;
+  display: flex;
 
   .general-top2 {
     border-radius: 4px;
@@ -222,7 +223,7 @@ h1 {
     background-color: #28292a;
     min-width: 15vw;
     position: absolute;
-    z-index: 400;
+    z-index: 200;
   }
   .top-artist2 {
     display: flex;
@@ -242,6 +243,11 @@ h1 {
     display: flex;
     text-align: center;
     align-items: center;
+    cursor: pointer;
+  }
+  h2:hover {
+    background-color: lightgrey;
+    color: #000;
   }
   .genre-container {
     display: grid;
@@ -263,11 +269,87 @@ h1 {
   .bg5 {
     background-color: #d210c2;
   }
+  .bg1:hover {
+    background-color: lightgrey;
+    color: #000;
+  }
+  .bg2:hover {
+    background-color: lightgrey;
+    color: #000;
+  }
+  .bg3:hover {
+    background-color: lightgrey;
+    color: #000;
+  }
+  .bg4:hover {
+    background-color: lightgrey;
+    color: #000;
+  }
+  .bg5:hover {
+    background-color: lightgrey;
+    color: #000;
+  }
 }
 .topchart {
-  // display: flex;
   position: absolute;
-  // display: flex;
-  z-index: 300;
-  margin-top: 12rem;
+  z-index: 200;
+  margin-left: 18.5rem;
+  background-color: #28292a;
+  width: 20rem;
+  height: 34vh;
+  border-radius: 5px;
+
+  .chat {
+    display: flex;
+    justify-content: space-between;
+  }
+  .text-chat {
+    padding: 1rem;
+  }
+  .first-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+  }
+  .first-item {
+    display: flex;
+    align-items: center;
+  }
+  h4 {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  h5 {
+    margin-left: 1rem;
+  }
+  p {
+    margin-left: 1rem;
+    font-size: 10px;
+  }
+  .play-icon {
+    display: flex;
+    align-items: center;
+  }
+  .general-top-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+    margin: 0.5rem 0 1.5rem 0;
+    // text-align: center;
+  }
+  .play {
+    margin-left: 1rem;
+    font-size: 0.7rem;
+    border: 1px solid;
+    padding: 0.4rem;
+    border-radius: 2px;
+    color: #4b91d7;
+    cursor: pointer;
+  }
+  .pause {
+    margin-left: 1rem;
+    font-size: 0.7rem;
+    cursor: pointer;
+  }
 }
