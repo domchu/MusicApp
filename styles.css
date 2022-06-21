@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inspiration&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -101,7 +102,7 @@ h1 {
 
 .slider-container .right-side .search-input {
   padding: 7px;
-  background-color: grey;
+  font-weight: 500;
   color: #fff;
   border: 1px solid grey;
   border-radius: 3px;
@@ -450,5 +451,54 @@ h1 {
   margin-left: 1rem;
   font-size: 0.7rem;
   cursor: pointer;
+}
+
+.player {
+  font-size: 18px;
+  position: absolute;
+  z-index: 600;
+  margin-left: 45rem;
+  background-color: #28292a;
+  width: 400px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 450px;
+  border-radius: 5px;
+}
+
+.player .player-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.player h2 {
+  font-size: 17px;
+}
+
+.player .player-music-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.player h3 {
+  margin: 0.4rem 0 0 0;
+}
+
+.player h4 {
+  font-size: 15px;
+  margin-top: 0.2rem;
+}
+
+.player h6 {
+  margin-top: 0.2rem;
+  font-size: 9px;
 }
 /*# sourceMappingURL=styles.css.map */

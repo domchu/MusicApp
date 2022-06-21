@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inspiration&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,700&display=swap");
+
 $bgcolor: black;
 $bgcolor_2: #34f39f;
 $textcolor: #f9f9f9;
@@ -7,7 +9,7 @@ $fontsize_md: 20px;
 $fontsize_lg: 25px;
 $primary_1: #000;
 $primary_2: #c940ff;
-$myfontfamily: sans-serif, Poppins;
+$myfontfamily: "roboto", Poppins;
 * {
   margin: 0;
   padding: 0;
@@ -85,10 +87,7 @@ h1 {
       padding: 20px;
       margin-top: 20px;
     }
-    // .main-slider-content {
-    // position: fixed;
-    // z-index: 100;
-    // }
+
     .first-link a {
       margin: 9px;
     }
@@ -97,14 +96,13 @@ h1 {
     }
     .search-input {
       padding: 7px;
-      background-color: grey;
+      font-weight: 500;
       color: #fff;
       border: 1px solid grey;
       border-radius: 3px;
     }
     .third-link {
       display: flex;
-      // align-items: center;
     }
     i {
       margin: 0 10px;
@@ -336,7 +334,6 @@ h1 {
     padding: 0 1rem;
     align-items: center;
     margin: 0.5rem 0 1.5rem 0;
-    // text-align: center;
   }
   .play {
     margin-left: 1rem;
@@ -351,5 +348,42 @@ h1 {
     margin-left: 1rem;
     font-size: 0.7rem;
     cursor: pointer;
+  }
+}
+.player {
+  font-size: 18px;
+  position: absolute;
+  z-index: 600;
+  margin-left: 45rem;
+  background-color: #28292a;
+  width: 400px;
+  text-align: center;
+  align-items: center;
+  height: 450px;
+  border-radius: 5px;
+
+  .player-icon {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+  }
+  h2 {
+    font-size: 17px;
+  }
+  .player-music-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+  }
+  h3 {
+    margin: 0.4rem 0 0 0;
+  }
+  h4 {
+    font-size: 15px;
+    margin-top: 0.2rem;
+  }
+  h6 {
+    margin-top: 0.2rem;
+    font-size: 9px;
   }
 }
